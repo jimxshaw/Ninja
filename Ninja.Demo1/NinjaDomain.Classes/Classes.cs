@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.Build.Framework;
 using NinjaDomain.Classes.Enums;
 
@@ -12,6 +13,7 @@ namespace NinjaDomain.Classes
         public Clan Clan { get; set; }
         public int ClanId { get; set; }
         public List<NinjaEquipment> EquipmentOwned { get; set; }
+        public DateTime DateOfBirth { get; set; }
     }
     public class Clan
     {
